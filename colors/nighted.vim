@@ -1,5 +1,14 @@
+" Vim color scheme
+"
+" Name:   nighted.vim
+" Author: Takaaki Hirano <hivedark@gmail.com>
+" Source: https://github.com/wolf-dog/nighted.vim
+
 set background=dark
 highlight clear
+if exists('syntax_on')
+    syntax reset
+endif
 let g:colors_name = 'nighted'
 
 " General colors
@@ -15,7 +24,7 @@ hi TabLineSel   ctermfg=255  ctermbg=60   cterm=bold guifg=#eeeeee guibg=#5f5f87
 hi TabLineFill  ctermfg=249  ctermbg=237  cterm=none guifg=#b2b2b2 guibg=#3a3a3a gui=none
 hi VertSplit    ctermfg=59   ctermbg=59   cterm=none guifg=#5f5f5f guibg=#5f5f5f gui=none
 hi LineNr       ctermfg=241  ctermbg=232  cterm=none guifg=#606060 guibg=#080808 gui=none
-hi NonText      ctermfg=96   ctermbg=none cterm=none guifg=#875f87 guibg=NONE    gui=none
+hi NonText      ctermfg=236  ctermbg=none cterm=none guifg=#303030 guibg=NONE    gui=none
 hi ErrorMsg     ctermfg=234  ctermbg=214  cterm=bold guifg=#1c1c1c guibg=#ffaf00 gui=bold
 hi ModeMsg      ctermfg=75   ctermbg=none cterm=bold guifg=#5fafff guibg=NONE    gui=bold
 hi WarningMsg   ctermfg=214  ctermbg=none cterm=none guifg=#ffaf00 guibg=NONE    gui=none
@@ -32,10 +41,10 @@ hi PmenuSel     ctermfg=255  ctermbg=103  cterm=none      guifg=#e0e0e0 guibg=#8
 hi PmenuSbar    ctermfg=none ctermbg=240  cterm=none      guifg=NONE    guibg=#585858 gui=none
 hi PmenuThumb   ctermfg=none ctermbg=110  cterm=none      guifg=NONE    guibg=#87afdf gui=none
 hi WildMenu     ctermfg=234  ctermbg=214  cterm=none      guifg=#1c1c1c guibg=#ffaf00 gui=none
-hi SpellBad     ctermfg=255  ctermbg=161  cterm=undercurl guifg=#e0e0e0 guibg=#df005f gui=undercurl
-hi SpellCap     ctermfg=255  ctermbg=69   cterm=undercurl guifg=#e0e0e0 guibg=#5f87ff gui=undercurl
-hi SpellRare    ctermfg=255  ctermbg=61   cterm=undercurl guifg=#e0e0e0 guibg=#5f5faf gui=undercurl
-hi SpellLocal   ctermfg=255  ctermbg=59   cterm=undercurl guifg=#e0e0e0 guibg=#5f5f5f gui=undercurl
+hi SpellBad     ctermfg=255  ctermbg=161  cterm=undercurl guifg=#e0e0e0 guibg=#df005f gui=undercurl guisp=#e0e0e0
+hi SpellCap     ctermfg=255  ctermbg=69   cterm=undercurl guifg=#e0e0e0 guibg=#5f87ff gui=undercurl guisp=#e0e0e0
+hi SpellRare    ctermfg=255  ctermbg=61   cterm=undercurl guifg=#e0e0e0 guibg=#5f5faf gui=undercurl guisp=#e0e0e0
+hi SpellLocal   ctermfg=255  ctermbg=59   cterm=undercurl guifg=#e0e0e0 guibg=#5f5f5f gui=undercurl guisp=#e0e0e0
 
 " Diff highlighting
 hi DiffAdd      ctermfg=234  ctermbg=75   cterm=none guifg=#1c1c1c guibg=#5fafff gui=none

@@ -16,7 +16,7 @@ hi Normal       ctermfg=251  ctermbg=234  cterm=none guifg=#c6c6c6 guibg=#1c1c1c
 hi Visual       ctermfg=none ctermbg=232  cterm=none guifg=NONE    guibg=#121212 gui=none
 hi Search       ctermfg=234  ctermbg=75   cterm=none guifg=#1c1c1c guibg=#5fafff gui=none
 hi IncSearch    ctermfg=234  ctermbg=61   cterm=none guifg=#1c1c1c guibg=#5f5f5f gui=none
-hi Folded       ctermfg=147  ctermbg=236  cterm=none guifg=#afafff guibg=#303030 gui=none
+hi Folded       ctermfg=147  ctermbg=232  cterm=none guifg=#afafff guibg=#121212 gui=none
 hi StatusLine   ctermfg=255  ctermbg=60   cterm=none guifg=#eeeeee guibg=#5f5f87 gui=none
 hi StatusLineNC ctermfg=249  ctermbg=237  cterm=none guifg=#b2b2b2 guibg=#3a3a3a gui=none
 hi TabLine      ctermfg=253  ctermbg=239  cterm=none guifg=#dadada guibg=#4e4e4e gui=none
@@ -47,7 +47,7 @@ hi SpellRare    ctermfg=255  ctermbg=61   cterm=undercurl guifg=#e0e0e0 guibg=#5
 hi SpellLocal   ctermfg=255  ctermbg=59   cterm=undercurl guifg=#e0e0e0 guibg=#5f5f5f gui=undercurl guisp=#e0e0e0
 
 " Diff highlighting
-hi DiffAdd      ctermfg=234  ctermbg=75   cterm=none guifg=#1c1c1c guibg=#5fafff gui=none
+hi DiffAdd      ctermfg=234  ctermbg=147  cterm=none guifg=#1c1c1c guibg=#afafff gui=none
 hi DiffChange   ctermfg=234  ctermbg=69   cterm=none guifg=#1c1c1c guibg=#5f87ff gui=none
 hi DiffDelete   ctermfg=234  ctermbg=60   cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
 hi DiffText     ctermfg=234  ctermbg=111  cterm=none guifg=#1c1c1c guibg=#87afff gui=none
@@ -66,7 +66,7 @@ hi Type         ctermfg=69  ctermbg=none cterm=none      guifg=#5f87ff guibg=NON
 hi Special      ctermfg=60  ctermbg=none cterm=bold      guifg=#5f5f87 guibg=NONE    gui=none
 hi Underlined   ctermfg=75  ctermbg=none cterm=underline guifg=#5fafff guibg=NONE    gui=underline
 hi Error        ctermfg=234 ctermbg=161  cterm=bold      guifg=#1c1c1c guibg=#df005f gui=none
-hi Todo         ctermfg=234 ctermbg=69   cterm=bold      guifg=#1c1c1c guibg=#5f87ff gui=none
+hi Todo         ctermfg=234 ctermbg=147  cterm=bold      guifg=#1c1c1c guibg=#afafff gui=none
 
 " Links
 hi! link Boolean        Constant

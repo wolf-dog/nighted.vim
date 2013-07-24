@@ -47,10 +47,11 @@ hi SpellRare    ctermfg=255  ctermbg=61   cterm=undercurl guifg=#e0e0e0 guibg=#5
 hi SpellLocal   ctermfg=255  ctermbg=59   cterm=undercurl guifg=#e0e0e0 guibg=#5f5f5f gui=undercurl guisp=#e0e0e0
 
 " Diff highlighting
-hi DiffAdd      ctermfg=234  ctermbg=147  cterm=none guifg=#1c1c1c guibg=#afafff gui=none
-hi DiffChange   ctermfg=234  ctermbg=69   cterm=none guifg=#1c1c1c guibg=#5f87ff gui=none
-hi DiffDelete   ctermfg=234  ctermbg=60   cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
-hi DiffText     ctermfg=234  ctermbg=111  cterm=none guifg=#1c1c1c guibg=#87afff gui=none
+hi DiffAdd      ctermfg=234  ctermbg=111  cterm=none guifg=#1c1c1c guibg=#87afff gui=none
+hi DiffDelete   ctermfg=234  ctermbg=68   cterm=none guifg=#1c1c1c guibg=#5f87df gui=none
+hi DiffChange   ctermfg=234  ctermbg=60   cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
+hi DiffText     ctermfg=234  ctermbg=103  cterm=none guifg=#1c1c1c guibg=#8787af gui=none
+add new line
 
 " Syntax highlighting
 hi Comment      ctermfg=59  ctermbg=none cterm=none      guifg=#5f5f5f guibg=NONE    gui=none

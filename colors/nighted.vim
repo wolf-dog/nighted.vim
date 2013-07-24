@@ -51,7 +51,6 @@ hi DiffAdd      ctermfg=234  ctermbg=111  cterm=none guifg=#1c1c1c guibg=#87afff
 hi DiffDelete   ctermfg=234  ctermbg=68   cterm=none guifg=#1c1c1c guibg=#5f87df gui=none
 hi DiffChange   ctermfg=234  ctermbg=60   cterm=none guifg=#1c1c1c guibg=#5f5f87 gui=none
 hi DiffText     ctermfg=234  ctermbg=103  cterm=none guifg=#1c1c1c guibg=#8787af gui=none
-add new line
 
 " Syntax highlighting
 hi Comment      ctermfg=59  ctermbg=none cterm=none      guifg=#5f5f5f guibg=NONE    gui=none

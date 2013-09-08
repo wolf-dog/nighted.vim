@@ -1,7 +1,7 @@
 nighted.vim
 ===========
 
-nigted.vim is a dark colorscheme with pale violet and blue foreground.
+nighted.vim is a dark colorscheme with pale violet and blue foreground.
 
 Designed for 256-color terminal emulaters, and also works well on gui version.
 
